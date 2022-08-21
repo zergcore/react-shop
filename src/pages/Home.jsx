@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
+import ProductList from '@containers/ProductList';
 
 function Home() {
   return (
-    <div>
-        <h1>
-            React e-shop home
-        </h1>
-    </div>
-  )
+    <>
+      <ProductList/>
+    </>
+  );
 }
 
 export default Home
